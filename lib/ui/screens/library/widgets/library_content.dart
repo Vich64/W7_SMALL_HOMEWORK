@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../../../../ui/screens/library/view_model/library_view_model.dart'; 
-import '../../../../data/repositories/songs/song_repository.dart';
 import '../../../../model/songs/song.dart';
-import '../../../states/player_state.dart';
-import '../../../states/settings_state.dart';
 import '../../../theme/theme.dart';
 
 class LibraryContent extends StatelessWidget {
